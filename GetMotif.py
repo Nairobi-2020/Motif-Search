@@ -18,7 +18,7 @@ import Methods
 
 ####################################################################################################################
 # Set parameters.
-model_dir = '/home/kong/Documents/Personal_Add/Apple/Swiss/Hall_Heim/Project/Lock/Models/model1/'
+model_dir = '/home/kong/Documents/Lock/Models/model1/'
 
 ####################################################################################################################
 # Load parameters and data.
@@ -42,7 +42,7 @@ pwm = tf.squeeze(pwm).numpy()
 # Save PWM.
 header = ['A', 'C', 'G', 'T']
 header = '\t'.join(header)
-np.savetxt('/home/kong/Documents/Personal_Add/Apple/Swiss/Hall_Heim/Project/Results/DeepLearning_PWM.txt', pwm, fmt='%s', delimiter='\t', header=header)
+np.savetxt('/home/kong/Documents/Results/DeepLearning_PWM.txt', pwm, fmt='%s', delimiter='\t', header=header)
 
 motif = []
 for i in range(len(pwm)):
