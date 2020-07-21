@@ -15,7 +15,7 @@ from collections import OrderedDict
 ####################################################################################################################
 ####################################################################################################################
 # Set parameters.
-data_dir = '/home/kong/Documents/Personal_Add/Apple/Swiss/Hall_Heim/Project/Data/'
+data_dir = '/home/kong/Documents/Data/'
 seq_length = 121
 n_epochs = 100
 
