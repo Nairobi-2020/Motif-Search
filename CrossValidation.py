@@ -35,7 +35,7 @@ for params_name in params_names:    \
 
   ##################################################################################################################
   # Clean up model_dir.
-  model_dir = '/home/kong/Documents/Personal_Add/Apple/Swiss/Hall_Heim/Project/Lock/Models/' + params_name
+  model_dir = '/home/kong/Documents／Lock/Models/' + params_name
   if os.path.isdir(model_dir):
     shutil.rmtree(model_dir)
   os.mkdir(model_dir)    \
@@ -96,7 +96,7 @@ apple = np.array(list(apple.items()))
 
 header = ['Params_ID', 'mean_AUC']
 header = '\t'.join([str(x) for x in header])
-np.savetxt('/home/kong/Documents/Personal_Add/Apple/Swiss/Hall_Heim/Project/Results/DeepLearning_CrossValidation_meanAUC.txt', apple, fmt='%s', delimiter='\t', header=header)
+np.savetxt('/home/kong/Documents/Results/DeepLearning_CrossValidation_meanAUC.txt', apple, fmt='%s', delimiter='\t', header=header)
 
 
 ####################################################################################################################
