@@ -16,8 +16,8 @@ import Methods
 
 ####################################################################################################################
 # Set parameters.
-data_dir = '/home/kong/Documents/Personal_Add/Apple/Swiss/Hall_Heim/Project/Data/'
-model_dir = '/home/kong/Documents/Personal_Add/Apple/Swiss/Hall_Heim/Project/Lock/Models/model1/'
+data_dir = '/home/kong/Documents/Data/'
+model_dir = '/home/kong/Documents/Lock/Models/model1/'
 
 ####################################################################################################################
 # Clean the folder to save model.
