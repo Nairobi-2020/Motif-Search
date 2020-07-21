@@ -19,7 +19,7 @@ import Methods
 
 ####################################################################################################################
 # Set parameters.
-data_dir = '/home/kong/Documents/Personal_Add/Apple/Swiss/Hall_Heim/Project/Data/'
+data_dir = '/home/kong/Documents/Data/'
 n_block = 10
 
 ####################################################################################################################
